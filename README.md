@@ -7,7 +7,7 @@ An intelligent, full-stack web application designed to automate data analysis, c
 * **Data Upload & Handling**: Securely upload and parse CSV and Excel datasets.
 * **Automated Data Cleaning**: Automatically handles missing values, removes duplicates, and standardizes data formats.
 * **Exploratory Data Analysis (EDA)**: Instantly generates statistical summaries and extracts key metrics from the data.
-* **Smart Visualization**: Recommends and renders the best charts/graphs (bar, line, pie, scatter) based on the dataset's structure using Chart.js/Recharts.
+* **Smart Visualization**: Recommends and renders the best charts/graphs (bar, line, pie, scatter) based on the dataset's structure using Matplotlib and Seaborn
 * **AI-Generated Reports**: Utilizes the Google Gemini API to generate comprehensive, human-readable insights and summaries based on the analyzed data.
 
 ## 🛠️ Tech Stack
@@ -16,7 +16,7 @@ An intelligent, full-stack web application designed to automate data analysis, c
 * React.js (with Vite for fast bundling)
 * Tailwind CSS (Styling)
 * React Router (Navigation)
-* Chart.js / Recharts (Data Visualization)
+* Matplotlib and Seaborn (Data Visualization)
 * Zod (Schema Validation)
 
 **Backend:**
